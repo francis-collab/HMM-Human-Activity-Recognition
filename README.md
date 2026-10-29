@@ -1,4 +1,4 @@
-# Formative 2 – Hidden Markov Models for Human Activity Recognition
+# Hidden Markov Models for Human Activity Recognition
 
 
 Assignment: modelling Standing, Walking, Jumping and Still from smartphone accelerometer & gyroscope data using a continuous Gaussian HMM implemented **from scratch** with NumPy.
