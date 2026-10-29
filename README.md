@@ -1,7 +1,7 @@
 # Formative 2 – Hidden Markov Models for Human Activity Recognition
 
 
-Individual assignment: modelling Standing, Walking, Jumping and Still from smartphone accelerometer & gyroscope data using a continuous Gaussian HMM implemented **from scratch** with NumPy.
+Assignment: modelling Standing, Walking, Jumping and Still from smartphone accelerometer & gyroscope data using a continuous Gaussian HMM implemented **from scratch** with NumPy.
 
 ---
 
@@ -23,7 +23,7 @@ HMM-Human-Activity-Recognition/
 └── README.md
 ```
 
-The original Sensor Logger recordings stay on Google Drive (or a local folder) and are loaded live by the notebook (no pre-cleaned data is shipped).
+The original Sensor Logger recordings stay on Google Drive (or a local folder) and are loaded live by the notebook.
 
 ---
 
