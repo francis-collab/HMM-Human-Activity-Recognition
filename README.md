@@ -12,7 +12,7 @@ HMM-Human-Activity-Recognition/
 ├── notebooks/
 │   └── HMM_Activity_Recognition.ipynb   # complete pipeline (Colab / local)
 ├── report/
-│   └── Formative2_HMM_Report.pdf        # 4–5 page report
+│   └── Formative2_HMM_Report.pdf        # report
 ├── figures/                             # all plots used in the report
 │   ├── sample_signals.png
 │   ├── transition_matrix.png
