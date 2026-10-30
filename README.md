@@ -1,6 +1,5 @@
 # Hidden Markov Models for Human Activity Recognition
 
-
 Assignment: modelling Standing, Walking, Jumping and Still from smartphone accelerometer & gyroscope data using a continuous Gaussian HMM implemented **from scratch** with NumPy.
 
 ---
@@ -11,7 +10,7 @@ Assignment: modelling Standing, Walking, Jumping and Still from smartphone accel
 HMM-Human-Activity-Recognition/
 ├── notebooks/
 │   └── HMM_Activity_Recognition.ipynb   # complete pipeline (Colab / local)
-├── figures/                             # all plots used in the report
+├── figures/                             # all plots
 │   ├── sample_signals.png
 │   ├── transition_matrix.png
 │   ├── confusion_matrix.png
@@ -115,26 +114,26 @@ After these two changes the rest of the notebook runs unchanged on VS Code, Jupy
 
 ## Model Summary
 
-| Item                  | Value                                              |
-|-----------------------|----------------------------------------------------|
-| Hidden states         | 4 (standing, walking, jumping, still)              |
-| Features per window   | 8 (4 time-domain + 2 gyro + 2 frequency)           |
-| Window / hop          | 1.0 s / 0.5 s                                      |
-| Emission model        | Diagonal Gaussian                                  |
-| Training algorithm    | Baum-Welch (log-likelihood convergence ε = 1e-3)   |
-| Decoding algorithm    | Viterbi                                            |
-| Test-set accuracy     | **≈ 95 %**                                         |
+| Item                | Value                                            |
+|---------------------|--------------------------------------------------|
+| Hidden states       | 4 (standing, walking, jumping, still)            |
+| Features per window | 8 (4 time-domain + 2 gyro + 2 frequency)         |
+| Window / hop        | 1.0 s / 0.5 s                                    |
+| Emission model      | Diagonal Gaussian                                |
+| Training algorithm  | Baum-Welch (log-likelihood convergence ε = 1e-3) |
+| Decoding algorithm  | Viterbi                                          |
+| Test-set accuracy   | **≈ 95 %**                                       |
 
 ---
 
 ## Video Proof of Data Collection
 
-Four short (~5 s) videos showing the author performing each activity while holding the phone (full body + face visible) must be linked below:
+Four short videos showing the author performing each activity while holding the phone:
 
-- Standing: *[insert link]*
-- Walking: *[insert link]*
-- Jumping: *[insert link]*
-- Still: *[insert link]*
+- Standing: https://youtube.com/shorts/67cPwlt-tDE?feature=share
+- Walking: https://youtube.com/shorts/lTm7Hg7LCb0?feature=share
+- Jumping: https://youtube.com/shorts/hIdIX3w8084?feature=share
+- Still: https://youtube.com/shorts/zbQ6qMwWRrU?feature=share
 
 ---
 
@@ -155,6 +154,6 @@ seaborn
 
 For educational use only.
 
-## Author:
+## Author
 
 Francis Mutabazi — an aspiring ML engineer
