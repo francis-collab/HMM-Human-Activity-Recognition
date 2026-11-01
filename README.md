@@ -8,14 +8,13 @@ Assignment: modelling Standing, Walking, Jumping and Still from smartphone accel
 
 ```
 HMM-Human-Activity-Recognition/
+├── data/
+│   ├── MLTechII-Formative2-sample-files-20261029T113939Z-1-001.zip         # 80 labelled CSV files (20 per activity)
+├── figures/              # all plots used in the report & notebook
 ├── notebooks/
-│   └── HMM_Activity_Recognition.ipynb   # complete pipeline (Colab / local)
-├── figures/                             # all plots
-│   ├── sample_signals.png
-│   ├── transition_matrix.png
-│   ├── confusion_matrix.png
-│   ├── decoded_sequences.png
-│   └── bw_convergence.png
+│   └── HMM_Activity_Recognition.ipynb   # main Colab/Kaggle-ready notebook
+├── report/
+│   └── Formative2_HMM_Report.pdf        # 4–5 page report
 ├── requirements.txt
 └── README.md
 ```
